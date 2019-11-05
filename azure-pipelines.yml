@@ -124,7 +124,7 @@ stages:
               appName: '$(WebAppNameTest)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
 
-- stage: 'Staging'
+- stage: 'Staging ...'
   displayName: 'Deploy to the staging environment'
   dependsOn: Test
   jobs:
