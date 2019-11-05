@@ -40,7 +40,6 @@ namespace TailSpin.SpaceGame.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
             }
             else
             {
